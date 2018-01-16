@@ -9,9 +9,9 @@ case class Blogger() extends Person
 def findTaskPerformed(className: Person): String = {
   val rollingNumber = new scala.util.Random
   className match {
-    //case Gamer => rollingDice(0, (rollingNumber.nextInt(7) + 1))
-    case Trainer => classStrength()
-    case Blogger => maxNumOfBlogs(blogList, noOfBlogs)
+    //case a:Gamer => rollingDice(0, (rollingNumber.nextInt(7) + 1))
+    case b:Trainer => classStrength()
+    case c:Blogger => maxNumOfBlogs(blogList, noOfBlogs)
   }
 
   /*def rollingDice(chances: Int, rollingNumber: Int): String = {
@@ -28,8 +28,7 @@ def classStrength(): String = {
     s"class strength is ${rollingNumber.nextInt(51)}"
   }
 
-
-   val random = scala.util.Random
+  val random = scala.util.Random
     def maxNumOfBlogs(blogList: Map[String,Int], noOfBlogs: Int): (String,Int) = {
       val technology = blogList.keySet
       val blogNumber =technology.toVector(random.nextInt(technology.size))
@@ -39,6 +38,6 @@ def classStrength(): String = {
         }
       else
        blogList.maxBy { case (key, value) => value }
-  }
+    }
 
 }
