@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7970ec-579c-4e30-bb02-07ae5beffbad" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/edu/knoldus/person.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/edu/knoldus/dummy.sc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/edu/knoldus/scaladay.scala" afterPath="$PROJECT_DIR$/src/main/scala/edu/knoldus/application.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/edu/knoldus/Payment$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/edu/knoldus/Payment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scalastyle-result.xml" afterPath="$PROJECT_DIR$/target/scalastyle-result.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/scalastyle/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/scalastyle/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
